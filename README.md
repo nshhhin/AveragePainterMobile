@@ -1,0 +1,2 @@
+# AverageStrokeMobile
+iOS版のAvgStroke
