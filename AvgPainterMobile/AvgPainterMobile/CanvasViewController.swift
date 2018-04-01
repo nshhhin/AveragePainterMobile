@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CanvasViewController: UIViewController {
+class CanvasViewController: UIViewController,UIImagePickerControllerDelegate, UINavigationControllerDelegate {
   
   @IBOutlet weak var drawingView: DrawingView!
   @IBOutlet weak var selectedColorView: UIView!
@@ -69,5 +69,32 @@ class CanvasViewController: UIViewController {
     drawingView.save()
   }
   
+  @IBAction func pushOpenBtn(_ sender: Any) {
+    if UIImagePickerController.isSourceTypeAvailable(UIImagePickerControllerSourceType.photoLibrary) {
+      
+      let picker = UIImagePickerController()
+      picker.modalPresentationStyle = UIModalPresentationStyle.popover
+      picker.delegate = self as! UIImagePickerControllerDelegate & UINavigationControllerDelegate
+      picker.sourceType = UIImagePickerControllerSourceType.photoLibrary
+      
+      if let popover = picker.popoverPresentationController {
+        popover.sourceView = self.view
+        popover.permittedArrowDirections = UIPopoverArrowDirection.any
+      }
+      self.present(picker, animated: true, completion: nil)
+    }
+  }
+  
+  func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+    
+    if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
+      drawingView.displayImage(pickedImage)
+    }
+    picker.dismiss(animated: true, completion: nil)
+  }
+  
+  override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    
+  }
 }
 

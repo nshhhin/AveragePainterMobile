@@ -208,4 +208,11 @@ class DrawingView: UIImageView {
     
   }
   
+  func displayImage(_ img: UIImage){
+    self.image = img
+    self.images.append(img)
+    self.lastDrawImage = img
+    
+  }
+  
 }
