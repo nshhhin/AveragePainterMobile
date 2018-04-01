@@ -1,0 +1,892 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9B81ED64B32AA32EE0F5B393B8CB16 /* Pods-AvgPainterMobileTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B96AD40D4DFB662790F15D51065722D0 /* Pods-AvgPainterMobileTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1260BEB564A4FC6CC753E67F6965B620 /* Pods-AvgPainterMobile-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F18819055986DACE866204D03221ACD /* Pods-AvgPainterMobile-dummy.m */; };
+		2CCA81B9BFAFFA78C63594B01881EAE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2CD7BD2F25A728501BCA2B2226271982 /* ChromaColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 01D916C83567E315231B4CB798F2A64A /* ChromaColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F6CDE3B2BA4DA36386508A448EB8C1D /* ChromaColorPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D6A1BD58242CD949CB26178E4330C3 /* ChromaColorPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40035A7E409B83DCFF7FEB781C2EED00 /* ChromaColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA92F33DFC6DF17B823161597138EF4E /* ChromaColorPicker-dummy.m */; };
+		40CDB60D68A59AA1BF7E0C30D7D6D3A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		46BE6075A78FD94B44FA92245C2486A4 /* ChromaAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B50FCFF3172B4E414E373AD2FE5F123 /* ChromaAddButton.swift */; };
+		49E1BBAAAB150C5B616C7A5426A822E8 /* Pods-AvgPainterMobileUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A5EBFB1D6A26A588F18E1CE090033F /* Pods-AvgPainterMobileUITests-dummy.m */; };
+		5B3B27FC3FF3AECE28D03EFF13F9515F /* Pods-AvgPainterMobileTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2858F1195CA7E7E9CF4D8559D7000821 /* Pods-AvgPainterMobileTests-dummy.m */; };
+		669DF0BD2976F6D694EDFCFCC67AF34E /* Pods-AvgPainterMobileUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8965FEBE1A715A7BB430E3BD8A58ECEE /* Pods-AvgPainterMobileUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C81A1CEF8720A2EEE2BE86779865157 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5537ADCF7F1457591909101ADAD892 /* UIColor+Utilities.swift */; };
+		92F8161F4E07A53E57E3EB2E1FA62238 /* ColorModeToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2B5C20A3E55114781399719932124A /* ColorModeToggleButton.swift */; };
+		95C667183B9AC2861B4C81A8D77D4D4C /* Pods-AvgPainterMobile-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ECC52131BE5F18F4749D734D0E7CE294 /* Pods-AvgPainterMobile-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD8EB20E8066C237C3A65D8D5DDF2D25 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CF264CDB3100B4C274326F95F32BC88B /* ChromaColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247653E98560502BAE1E1C8FC66EBCA5 /* ChromaColorPicker.swift */; };
+		D293A1440EB06534BDE656DCCC754667 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EB82E7DA872E98A1B0B1F66C7CE15702 /* ChromaHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91AA62CF1621F2291E9E8BCBC00ACF1B /* ChromaHandle.swift */; };
+		FB24018F9DFDC79925597D4878E12FD4 /* ChromaShadeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E73A28BF3FEF50764DDD75A8CDC44B /* ChromaShadeSlider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC035B0BC28883F829D8E0710AAE3DF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99AA48135ECB557858428F797600458F;
+			remoteInfo = ChromaColorPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01D916C83567E315231B4CB798F2A64A /* ChromaColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		034BDF2AB9B3A76A8394AC3F5CF7A60F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		053AD73D320565046B48BC6F7F8442B4 /* Pods-AvgPainterMobile-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvgPainterMobile-resources.sh"; sourceTree = "<group>"; };
+		13A358C31C492720B3A17A3843FB3561 /* Pods-AvgPainterMobile-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvgPainterMobile-acknowledgements.markdown"; sourceTree = "<group>"; };
+		16DA958EEBB02EA2904DA0F91CAE9B3B /* Pods-AvgPainterMobileUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvgPainterMobileUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1A2B5C20A3E55114781399719932124A /* ColorModeToggleButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColorModeToggleButton.swift; path = ChromaColorPicker/ColorModeToggleButton.swift; sourceTree = "<group>"; };
+		21CA14D52F926FA9DA84141FCF7C2745 /* Pods-AvgPainterMobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvgPainterMobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+		247653E98560502BAE1E1C8FC66EBCA5 /* ChromaColorPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaColorPicker.swift; path = ChromaColorPicker/ChromaColorPicker.swift; sourceTree = "<group>"; };
+		24DB68D2DAE03DA7EB7EE0AEBCC237A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2858F1195CA7E7E9CF4D8559D7000821 /* Pods-AvgPainterMobileTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvgPainterMobileTests-dummy.m"; sourceTree = "<group>"; };
+		28B2D4C35208E6B83B1706E6EC635C3B /* Pods-AvgPainterMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvgPainterMobile.release.xcconfig"; sourceTree = "<group>"; };
+		39131B12E782FBD9493605916F6073D2 /* Pods-AvgPainterMobileTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvgPainterMobileTests-resources.sh"; sourceTree = "<group>"; };
+		3A5537ADCF7F1457591909101ADAD892 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIColor+Utilities.swift"; path = "ChromaColorPicker/UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		3F18819055986DACE866204D03221ACD /* Pods-AvgPainterMobile-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvgPainterMobile-dummy.m"; sourceTree = "<group>"; };
+		40C8089122860639F7387D758ACDD0C2 /* ChromaColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChromaColorPicker.framework; path = ChromaColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A4DBF0BFCB1DE39E621E6E4A89EBA65 /* Pods-AvgPainterMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvgPainterMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B67303DBE5EED07571C090E9CAE695A /* Pods_AvgPainterMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvgPainterMobileTests.framework; path = "Pods-AvgPainterMobileTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D574ACF7EDC10EA60462F495CFA8EDC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F52199A2BAA5BA034F127AFBB6113C2 /* Pods_AvgPainterMobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvgPainterMobileUITests.framework; path = "Pods-AvgPainterMobileUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		609D1AFB4B9C0229096B223AD8B4676A /* Pods-AvgPainterMobile.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AvgPainterMobile.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6B50FCFF3172B4E414E373AD2FE5F123 /* ChromaAddButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaAddButton.swift; path = ChromaColorPicker/ChromaAddButton.swift; sourceTree = "<group>"; };
+		7B8B17F3EC86A628F7E12635C9013106 /* Pods-AvgPainterMobileTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvgPainterMobileTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E8095CF76E6EFD1956B7E25C828D136 /* Pods-AvgPainterMobileUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvgPainterMobileUITests-frameworks.sh"; sourceTree = "<group>"; };
+		84A5EBFB1D6A26A588F18E1CE090033F /* Pods-AvgPainterMobileUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AvgPainterMobileUITests-dummy.m"; sourceTree = "<group>"; };
+		8965FEBE1A715A7BB430E3BD8A58ECEE /* Pods-AvgPainterMobileUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvgPainterMobileUITests-umbrella.h"; sourceTree = "<group>"; };
+		8A18A1713077B20793F212DF99401FC6 /* Pods-AvgPainterMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvgPainterMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90019348AF7B7EB1500E1D16A8BF4A53 /* Pods_AvgPainterMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AvgPainterMobile.framework; path = "Pods-AvgPainterMobile.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91AA62CF1621F2291E9E8BCBC00ACF1B /* ChromaHandle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaHandle.swift; path = ChromaColorPicker/ChromaHandle.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0D94053508D5642721C6E67B7A3453E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A21CD772EDC8CC93A011BC5D447476E3 /* ChromaColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChromaColorPicker.xcconfig; sourceTree = "<group>"; };
+		A6D6A1BD58242CD949CB26178E4330C3 /* ChromaColorPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChromaColorPicker.h; path = ChromaColorPicker/ChromaColorPicker.h; sourceTree = "<group>"; };
+		AA30E2613B0760DEC50CA1C59B87E625 /* Pods-AvgPainterMobile-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvgPainterMobile-acknowledgements.plist"; sourceTree = "<group>"; };
+		AADE97CEB73D0FC6421C070B91845383 /* Pods-AvgPainterMobileTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AvgPainterMobileTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B347D8A3C3157F850CC82E4C27252281 /* ChromaColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ChromaColorPicker.modulemap; sourceTree = "<group>"; };
+		B422BC605A9FDD6304ADD89DE1B3F8E0 /* Pods-AvgPainterMobileTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AvgPainterMobileTests.modulemap"; sourceTree = "<group>"; };
+		B96AD40D4DFB662790F15D51065722D0 /* Pods-AvgPainterMobileTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvgPainterMobileTests-umbrella.h"; sourceTree = "<group>"; };
+		BA92F33DFC6DF17B823161597138EF4E /* ChromaColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChromaColorPicker-dummy.m"; sourceTree = "<group>"; };
+		CA42A49B4BFCEDE18DE1586FCFE369B4 /* Pods-AvgPainterMobile-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvgPainterMobile-frameworks.sh"; sourceTree = "<group>"; };
+		CB539735475CCEAC8CD7C3DF8A73F08D /* Pods-AvgPainterMobileUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-AvgPainterMobileUITests.modulemap"; sourceTree = "<group>"; };
+		D0A921FFAC48D0FD0A8827F1F3E7509D /* Pods-AvgPainterMobileUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvgPainterMobileUITests-resources.sh"; sourceTree = "<group>"; };
+		D2A67CEBBA76ADFD7566BB64B617FA1C /* Pods-AvgPainterMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvgPainterMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		D88C73D97B87A9B9D479B5CC11933E9C /* Pods-AvgPainterMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AvgPainterMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D8E73A28BF3FEF50764DDD75A8CDC44B /* ChromaShadeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChromaShadeSlider.swift; path = ChromaColorPicker/ChromaShadeSlider.swift; sourceTree = "<group>"; };
+		DB607B19D826E3C9C80523B3CFE58A51 /* ChromaColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChromaColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		DC340E1B4BCBB353A10ACA868017F62F /* Pods-AvgPainterMobileUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AvgPainterMobileUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ECC52131BE5F18F4749D734D0E7CE294 /* Pods-AvgPainterMobile-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AvgPainterMobile-umbrella.h"; sourceTree = "<group>"; };
+		F6AE84F7F7EA4658D7425712D219E361 /* Pods-AvgPainterMobileTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AvgPainterMobileTests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D971379FED577B3507599314BFD0354 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D293A1440EB06534BDE656DCCC754667 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD54A7885424EDCAEA540E38FC23C0FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40CDB60D68A59AA1BF7E0C30D7D6D3A6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4C778F22C161741FB18E99032D63B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CCA81B9BFAFFA78C63594B01881EAE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0B9A21FD97F602B117967F4D928A03A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD8EB20E8066C237C3A65D8D5DDF2D25 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2117D2C748C159C9CA2D2D3928C653B0 /* Pods-AvgPainterMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24DB68D2DAE03DA7EB7EE0AEBCC237A9 /* Info.plist */,
+				CB539735475CCEAC8CD7C3DF8A73F08D /* Pods-AvgPainterMobileUITests.modulemap */,
+				DC340E1B4BCBB353A10ACA868017F62F /* Pods-AvgPainterMobileUITests-acknowledgements.markdown */,
+				16DA958EEBB02EA2904DA0F91CAE9B3B /* Pods-AvgPainterMobileUITests-acknowledgements.plist */,
+				84A5EBFB1D6A26A588F18E1CE090033F /* Pods-AvgPainterMobileUITests-dummy.m */,
+				7E8095CF76E6EFD1956B7E25C828D136 /* Pods-AvgPainterMobileUITests-frameworks.sh */,
+				D0A921FFAC48D0FD0A8827F1F3E7509D /* Pods-AvgPainterMobileUITests-resources.sh */,
+				8965FEBE1A715A7BB430E3BD8A58ECEE /* Pods-AvgPainterMobileUITests-umbrella.h */,
+				D88C73D97B87A9B9D479B5CC11933E9C /* Pods-AvgPainterMobileUITests.debug.xcconfig */,
+				21CA14D52F926FA9DA84141FCF7C2745 /* Pods-AvgPainterMobileUITests.release.xcconfig */,
+			);
+			name = "Pods-AvgPainterMobileUITests";
+			path = "Target Support Files/Pods-AvgPainterMobileUITests";
+			sourceTree = "<group>";
+		};
+		2F654AD326915E7C3AF8C904D1F588CF /* Pods-AvgPainterMobile */ = {
+			isa = PBXGroup;
+			children = (
+				034BDF2AB9B3A76A8394AC3F5CF7A60F /* Info.plist */,
+				609D1AFB4B9C0229096B223AD8B4676A /* Pods-AvgPainterMobile.modulemap */,
+				13A358C31C492720B3A17A3843FB3561 /* Pods-AvgPainterMobile-acknowledgements.markdown */,
+				AA30E2613B0760DEC50CA1C59B87E625 /* Pods-AvgPainterMobile-acknowledgements.plist */,
+				3F18819055986DACE866204D03221ACD /* Pods-AvgPainterMobile-dummy.m */,
+				CA42A49B4BFCEDE18DE1586FCFE369B4 /* Pods-AvgPainterMobile-frameworks.sh */,
+				053AD73D320565046B48BC6F7F8442B4 /* Pods-AvgPainterMobile-resources.sh */,
+				ECC52131BE5F18F4749D734D0E7CE294 /* Pods-AvgPainterMobile-umbrella.h */,
+				D2A67CEBBA76ADFD7566BB64B617FA1C /* Pods-AvgPainterMobile.debug.xcconfig */,
+				28B2D4C35208E6B83B1706E6EC635C3B /* Pods-AvgPainterMobile.release.xcconfig */,
+			);
+			name = "Pods-AvgPainterMobile";
+			path = "Target Support Files/Pods-AvgPainterMobile";
+			sourceTree = "<group>";
+		};
+		479A97DD6AC47ABE9BD1BDDCFE7CBD67 /* ChromaColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				6B50FCFF3172B4E414E373AD2FE5F123 /* ChromaAddButton.swift */,
+				A6D6A1BD58242CD949CB26178E4330C3 /* ChromaColorPicker.h */,
+				247653E98560502BAE1E1C8FC66EBCA5 /* ChromaColorPicker.swift */,
+				91AA62CF1621F2291E9E8BCBC00ACF1B /* ChromaHandle.swift */,
+				D8E73A28BF3FEF50764DDD75A8CDC44B /* ChromaShadeSlider.swift */,
+				1A2B5C20A3E55114781399719932124A /* ColorModeToggleButton.swift */,
+				3A5537ADCF7F1457591909101ADAD892 /* UIColor+Utilities.swift */,
+				55D688BA080FF596F4BA556880C0D12E /* Support Files */,
+			);
+			name = ChromaColorPicker;
+			path = ChromaColorPicker;
+			sourceTree = "<group>";
+		};
+		4DEC7A050EEC647F28508C190E2F5430 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				479A97DD6AC47ABE9BD1BDDCFE7CBD67 /* ChromaColorPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55D688BA080FF596F4BA556880C0D12E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B347D8A3C3157F850CC82E4C27252281 /* ChromaColorPicker.modulemap */,
+				A21CD772EDC8CC93A011BC5D447476E3 /* ChromaColorPicker.xcconfig */,
+				BA92F33DFC6DF17B823161597138EF4E /* ChromaColorPicker-dummy.m */,
+				DB607B19D826E3C9C80523B3CFE58A51 /* ChromaColorPicker-prefix.pch */,
+				01D916C83567E315231B4CB798F2A64A /* ChromaColorPicker-umbrella.h */,
+				A0D94053508D5642721C6E67B7A3453E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChromaColorPicker";
+			sourceTree = "<group>";
+		};
+		5F7ACA605CFB9D2E07ED4CD0878D4181 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F654AD326915E7C3AF8C904D1F588CF /* Pods-AvgPainterMobile */,
+				D2DD37BFA1F6DCFD3015DC85D48AFECC /* Pods-AvgPainterMobileTests */,
+				2117D2C748C159C9CA2D2D3928C653B0 /* Pods-AvgPainterMobileUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				4DEC7A050EEC647F28508C190E2F5430 /* Pods */,
+				F6E9C4B646D6EF708ED3433E45819162 /* Products */,
+				5F7ACA605CFB9D2E07ED4CD0878D4181 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2DD37BFA1F6DCFD3015DC85D48AFECC /* Pods-AvgPainterMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D574ACF7EDC10EA60462F495CFA8EDC /* Info.plist */,
+				B422BC605A9FDD6304ADD89DE1B3F8E0 /* Pods-AvgPainterMobileTests.modulemap */,
+				7B8B17F3EC86A628F7E12635C9013106 /* Pods-AvgPainterMobileTests-acknowledgements.markdown */,
+				AADE97CEB73D0FC6421C070B91845383 /* Pods-AvgPainterMobileTests-acknowledgements.plist */,
+				2858F1195CA7E7E9CF4D8559D7000821 /* Pods-AvgPainterMobileTests-dummy.m */,
+				F6AE84F7F7EA4658D7425712D219E361 /* Pods-AvgPainterMobileTests-frameworks.sh */,
+				39131B12E782FBD9493605916F6073D2 /* Pods-AvgPainterMobileTests-resources.sh */,
+				B96AD40D4DFB662790F15D51065722D0 /* Pods-AvgPainterMobileTests-umbrella.h */,
+				8A18A1713077B20793F212DF99401FC6 /* Pods-AvgPainterMobileTests.debug.xcconfig */,
+				4A4DBF0BFCB1DE39E621E6E4A89EBA65 /* Pods-AvgPainterMobileTests.release.xcconfig */,
+			);
+			name = "Pods-AvgPainterMobileTests";
+			path = "Target Support Files/Pods-AvgPainterMobileTests";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F6E9C4B646D6EF708ED3433E45819162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40C8089122860639F7387D758ACDD0C2 /* ChromaColorPicker.framework */,
+				90019348AF7B7EB1500E1D16A8BF4A53 /* Pods_AvgPainterMobile.framework */,
+				4B67303DBE5EED07571C090E9CAE695A /* Pods_AvgPainterMobileTests.framework */,
+				5F52199A2BAA5BA034F127AFBB6113C2 /* Pods_AvgPainterMobileUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F7C3415CD954C0210CBA0CD91D20A81 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9B81ED64B32AA32EE0F5B393B8CB16 /* Pods-AvgPainterMobileTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		537E3AFB9460117F3179E3397FA5A563 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD7BD2F25A728501BCA2B2226271982 /* ChromaColorPicker-umbrella.h in Headers */,
+				2F6CDE3B2BA4DA36386508A448EB8C1D /* ChromaColorPicker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2553E493EE44DDBC9853873230C024F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C667183B9AC2861B4C81A8D77D4D4C /* Pods-AvgPainterMobile-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5E372AD5BE4EC248EF936E083221C19 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669DF0BD2976F6D694EDFCFCC67AF34E /* Pods-AvgPainterMobileUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8056BC08F587422345744D355427BA28 /* Pods-AvgPainterMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B44214EE45D2B5CE748AE76DFAE3CDC9 /* Build configuration list for PBXNativeTarget "Pods-AvgPainterMobile" */;
+			buildPhases = (
+				C2195A4A444F5842DB881213EBBB769C /* Sources */,
+				F0B9A21FD97F602B117967F4D928A03A /* Frameworks */,
+				C2553E493EE44DDBC9853873230C024F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3D268F49079A3F09C132E1E8905242 /* PBXTargetDependency */,
+			);
+			name = "Pods-AvgPainterMobile";
+			productName = "Pods-AvgPainterMobile";
+			productReference = 90019348AF7B7EB1500E1D16A8BF4A53 /* Pods_AvgPainterMobile.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		842B5E29DF489B8E5CBD3FF7F52889CE /* Pods-AvgPainterMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AF3B9E5EC9EED0F81364CD8C2621332 /* Build configuration list for PBXNativeTarget "Pods-AvgPainterMobileUITests" */;
+			buildPhases = (
+				81F93127FB730DB58BE48584ED2A2BCF /* Sources */,
+				7D971379FED577B3507599314BFD0354 /* Frameworks */,
+				F5E372AD5BE4EC248EF936E083221C19 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AvgPainterMobileUITests";
+			productName = "Pods-AvgPainterMobileUITests";
+			productReference = 5F52199A2BAA5BA034F127AFBB6113C2 /* Pods_AvgPainterMobileUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99AA48135ECB557858428F797600458F /* ChromaColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 543A042E3FD27E013465D142854479E1 /* Build configuration list for PBXNativeTarget "ChromaColorPicker" */;
+			buildPhases = (
+				F57AD227BCEA188ED1CDF943F7DADE5E /* Sources */,
+				E4C778F22C161741FB18E99032D63B84 /* Frameworks */,
+				537E3AFB9460117F3179E3397FA5A563 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChromaColorPicker;
+			productName = ChromaColorPicker;
+			productReference = 40C8089122860639F7387D758ACDD0C2 /* ChromaColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B605338619DD69D1E4022F5F50E6B8F6 /* Pods-AvgPainterMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0177B5635F65DEF5C8B45E3E905D36 /* Build configuration list for PBXNativeTarget "Pods-AvgPainterMobileTests" */;
+			buildPhases = (
+				EF939E66F72DAFB2E51AEA5C552E6E70 /* Sources */,
+				AD54A7885424EDCAEA540E38FC23C0FD /* Frameworks */,
+				2F7C3415CD954C0210CBA0CD91D20A81 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-AvgPainterMobileTests";
+			productName = "Pods-AvgPainterMobileTests";
+			productReference = 4B67303DBE5EED07571C090E9CAE695A /* Pods_AvgPainterMobileTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F6E9C4B646D6EF708ED3433E45819162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99AA48135ECB557858428F797600458F /* ChromaColorPicker */,
+				8056BC08F587422345744D355427BA28 /* Pods-AvgPainterMobile */,
+				B605338619DD69D1E4022F5F50E6B8F6 /* Pods-AvgPainterMobileTests */,
+				842B5E29DF489B8E5CBD3FF7F52889CE /* Pods-AvgPainterMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81F93127FB730DB58BE48584ED2A2BCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E1BBAAAB150C5B616C7A5426A822E8 /* Pods-AvgPainterMobileUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2195A4A444F5842DB881213EBBB769C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1260BEB564A4FC6CC753E67F6965B620 /* Pods-AvgPainterMobile-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF939E66F72DAFB2E51AEA5C552E6E70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B3B27FC3FF3AECE28D03EFF13F9515F /* Pods-AvgPainterMobileTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F57AD227BCEA188ED1CDF943F7DADE5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46BE6075A78FD94B44FA92245C2486A4 /* ChromaAddButton.swift in Sources */,
+				40035A7E409B83DCFF7FEB781C2EED00 /* ChromaColorPicker-dummy.m in Sources */,
+				CF264CDB3100B4C274326F95F32BC88B /* ChromaColorPicker.swift in Sources */,
+				EB82E7DA872E98A1B0B1F66C7CE15702 /* ChromaHandle.swift in Sources */,
+				FB24018F9DFDC79925597D4878E12FD4 /* ChromaShadeSlider.swift in Sources */,
+				92F8161F4E07A53E57E3EB2E1FA62238 /* ColorModeToggleButton.swift in Sources */,
+				8C81A1CEF8720A2EEE2BE86779865157 /* UIColor+Utilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB3D268F49079A3F09C132E1E8905242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChromaColorPicker;
+			target = 99AA48135ECB557858428F797600458F /* ChromaColorPicker */;
+			targetProxy = EC035B0BC28883F829D8E0710AAE3DF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07A96AD3A8A307EFA916EE9050D928A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21CD772EDC8CC93A011BC5D447476E3 /* ChromaColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ChromaColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2D54EA64BBA5412DD49E2A34ABDA5F05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A67CEBBA76ADFD7566BB64B617FA1C /* Pods-AvgPainterMobile.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvgPainterMobile/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvgPainterMobile/Pods-AvgPainterMobile.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AvgPainterMobile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54A367F0B070080ABA9B2711F57585F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A18A1713077B20793F212DF99401FC6 /* Pods-AvgPainterMobileTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvgPainterMobileTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvgPainterMobileTests/Pods-AvgPainterMobileTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AvgPainterMobileTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF963A940E096F5FD8262CE62CDCED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A4DBF0BFCB1DE39E621E6E4A89EBA65 /* Pods-AvgPainterMobileTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvgPainterMobileTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvgPainterMobileTests/Pods-AvgPainterMobileTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AvgPainterMobileTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8E41F59C69DB6FD356E8944F33786A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88C73D97B87A9B9D479B5CC11933E9C /* Pods-AvgPainterMobileUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvgPainterMobileUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvgPainterMobileUITests/Pods-AvgPainterMobileUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AvgPainterMobileUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9CE9E54D70FC0450443828307A94D685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28B2D4C35208E6B83B1706E6EC635C3B /* Pods-AvgPainterMobile.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvgPainterMobile/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvgPainterMobile/Pods-AvgPainterMobile.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AvgPainterMobile;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B98FC6B39D881B25FF26D14066D5A25C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21CD772EDC8CC93A011BC5D447476E3 /* ChromaColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChromaColorPicker/ChromaColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChromaColorPicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChromaColorPicker/ChromaColorPicker.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ChromaColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D72E489B59C3A70112D2342F402BD262 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FF09B4610F96C2D1B6CB356B6AADD941 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21CA14D52F926FA9DA84141FCF7C2745 /* Pods-AvgPainterMobileUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-AvgPainterMobileUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AvgPainterMobileUITests/Pods-AvgPainterMobileUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AvgPainterMobileUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E489B59C3A70112D2342F402BD262 /* Debug */,
+				ABC1C622E3A94D5EFA80B6DBB5E64193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		543A042E3FD27E013465D142854479E1 /* Build configuration list for PBXNativeTarget "ChromaColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B98FC6B39D881B25FF26D14066D5A25C /* Debug */,
+				07A96AD3A8A307EFA916EE9050D928A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AF3B9E5EC9EED0F81364CD8C2621332 /* Build configuration list for PBXNativeTarget "Pods-AvgPainterMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E41F59C69DB6FD356E8944F33786A6F /* Debug */,
+				FF09B4610F96C2D1B6CB356B6AADD941 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0177B5635F65DEF5C8B45E3E905D36 /* Build configuration list for PBXNativeTarget "Pods-AvgPainterMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A367F0B070080ABA9B2711F57585F6 /* Debug */,
+				7EF963A940E096F5FD8262CE62CDCED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B44214EE45D2B5CE748AE76DFAE3CDC9 /* Build configuration list for PBXNativeTarget "Pods-AvgPainterMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D54EA64BBA5412DD49E2A34ABDA5F05 /* Debug */,
+				9CE9E54D70FC0450443828307A94D685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

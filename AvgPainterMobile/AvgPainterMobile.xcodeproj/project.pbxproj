@@ -1,0 +1,801 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		165B6680BFF0756950B05463 /* Pods_AvgPainterMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE5A2F384BB6BDDD510DC70 /* Pods_AvgPainterMobile.framework */; };
+		3F126B58204D852100896AAB /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F126B57204D852100896AAB /* DrawingView.swift */; };
+		3FB77FB1204D6B9900E3119C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB77FB0204D6B9900E3119C /* AppDelegate.swift */; };
+		3FB77FB3204D6B9900E3119C /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB77FB2204D6B9900E3119C /* CanvasViewController.swift */; };
+		3FB77FB6204D6B9900E3119C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB77FB4204D6B9900E3119C /* Main.storyboard */; };
+		3FB77FB9204D6B9900E3119C /* AvgPainterMobile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3FB77FB7204D6B9900E3119C /* AvgPainterMobile.xcdatamodeld */; };
+		3FB77FBB204D6B9900E3119C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FB77FBA204D6B9900E3119C /* Assets.xcassets */; };
+		3FB77FBE204D6B9900E3119C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB77FBC204D6B9900E3119C /* LaunchScreen.storyboard */; };
+		3FB77FC9204D6B9A00E3119C /* AvgPainterMobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB77FC8204D6B9A00E3119C /* AvgPainterMobileTests.swift */; };
+		3FB77FD4204D6B9A00E3119C /* AvgPainterMobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB77FD3204D6B9A00E3119C /* AvgPainterMobileUITests.swift */; };
+		3FB77FE3204D72E600E3119C /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB77FE2204D72E600E3119C /* ColorViewController.swift */; };
+		A85F781C00B8AF4C7A597D36 /* Pods_AvgPainterMobileUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 972CC52050EBEBD259F01042 /* Pods_AvgPainterMobileUITests.framework */; };
+		DD379D386C204518F288FD0E /* Pods_AvgPainterMobileTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F6DBF1000C8118402353F5 /* Pods_AvgPainterMobileTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FB77FC5204D6B9A00E3119C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB77FA5204D6B9900E3119C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB77FAC204D6B9900E3119C;
+			remoteInfo = AvgPainterMobile;
+		};
+		3FB77FD0204D6B9A00E3119C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB77FA5204D6B9900E3119C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB77FAC204D6B9900E3119C;
+			remoteInfo = AvgPainterMobile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F126B57204D852100896AAB /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		3FB77FAD204D6B9900E3119C /* AvgPainterMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvgPainterMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB77FB0204D6B9900E3119C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FB77FB2204D6B9900E3119C /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
+		3FB77FB5204D6B9900E3119C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FB77FB8204D6B9900E3119C /* AvgPainterMobile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AvgPainterMobile.xcdatamodel; sourceTree = "<group>"; };
+		3FB77FBA204D6B9900E3119C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FB77FBD204D6B9900E3119C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FB77FBF204D6B9900E3119C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB77FC4204D6B9A00E3119C /* AvgPainterMobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvgPainterMobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB77FC8204D6B9A00E3119C /* AvgPainterMobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvgPainterMobileTests.swift; sourceTree = "<group>"; };
+		3FB77FCA204D6B9A00E3119C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB77FCF204D6B9A00E3119C /* AvgPainterMobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvgPainterMobileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB77FD3204D6B9A00E3119C /* AvgPainterMobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvgPainterMobileUITests.swift; sourceTree = "<group>"; };
+		3FB77FD5204D6B9A00E3119C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FB77FE2204D72E600E3119C /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		3FB77FE5204D759900E3119C /* Color_Picker_for_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Color_Picker_for_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FB77FFA204D77ED00E3119C /* AvgPainterMobile copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AvgPainterMobile copy-Info.plist"; path = "/Users/nino/Desktop/AvgPainterMobile/AvgPainterMobile copy-Info.plist"; sourceTree = "<absolute>"; };
+		40AD4BD96A1EB86E7F70819D /* Pods-AvgPainterMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvgPainterMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvgPainterMobile/Pods-AvgPainterMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		57396816CF2612D34E1422E2 /* Pods-AvgPainterMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvgPainterMobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvgPainterMobileTests/Pods-AvgPainterMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		582F968199B838D53AC3FEF5 /* Pods-AvgPainterMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvgPainterMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-AvgPainterMobile/Pods-AvgPainterMobile.release.xcconfig"; sourceTree = "<group>"; };
+		972CC52050EBEBD259F01042 /* Pods_AvgPainterMobileUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvgPainterMobileUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F6DBF1000C8118402353F5 /* Pods_AvgPainterMobileTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvgPainterMobileTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCC5E8B9C799303303F11DAE /* Pods-AvgPainterMobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvgPainterMobileTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AvgPainterMobileTests/Pods-AvgPainterMobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		BCE5A2F384BB6BDDD510DC70 /* Pods_AvgPainterMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvgPainterMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0920AFC18E66E15D233A95 /* Pods-AvgPainterMobileUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvgPainterMobileUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvgPainterMobileUITests/Pods-AvgPainterMobileUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E7F92976353C7648CBE8339A /* Pods-AvgPainterMobileUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvgPainterMobileUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AvgPainterMobileUITests/Pods-AvgPainterMobileUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3FB77FAA204D6B9900E3119C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				165B6680BFF0756950B05463 /* Pods_AvgPainterMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB77FC1204D6B9A00E3119C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD379D386C204518F288FD0E /* Pods_AvgPainterMobileTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB77FCC204D6B9A00E3119C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85F781C00B8AF4C7A597D36 /* Pods_AvgPainterMobileUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3FB77FA4204D6B9900E3119C = {
+			isa = PBXGroup;
+			children = (
+				3FB77FAF204D6B9900E3119C /* AvgPainterMobile */,
+				3FB77FC7204D6B9A00E3119C /* AvgPainterMobileTests */,
+				3FB77FD2204D6B9A00E3119C /* AvgPainterMobileUITests */,
+				3FB77FAE204D6B9900E3119C /* Products */,
+				F7300A600418B62DC8AEF753 /* Pods */,
+				7C36603AD8B0184BD60F71D8 /* Frameworks */,
+				3FB77FFA204D77ED00E3119C /* AvgPainterMobile copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		3FB77FAE204D6B9900E3119C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3FB77FAD204D6B9900E3119C /* AvgPainterMobile.app */,
+				3FB77FC4204D6B9A00E3119C /* AvgPainterMobileTests.xctest */,
+				3FB77FCF204D6B9A00E3119C /* AvgPainterMobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3FB77FAF204D6B9900E3119C /* AvgPainterMobile */ = {
+			isa = PBXGroup;
+			children = (
+				3FB77FB0204D6B9900E3119C /* AppDelegate.swift */,
+				3FB77FB2204D6B9900E3119C /* CanvasViewController.swift */,
+				3FB77FE2204D72E600E3119C /* ColorViewController.swift */,
+				3F126B57204D852100896AAB /* DrawingView.swift */,
+				3FB77FB4204D6B9900E3119C /* Main.storyboard */,
+				3FB77FBA204D6B9900E3119C /* Assets.xcassets */,
+				3FB77FBC204D6B9900E3119C /* LaunchScreen.storyboard */,
+				3FB77FBF204D6B9900E3119C /* Info.plist */,
+				3FB77FB7204D6B9900E3119C /* AvgPainterMobile.xcdatamodeld */,
+			);
+			path = AvgPainterMobile;
+			sourceTree = "<group>";
+		};
+		3FB77FC7204D6B9A00E3119C /* AvgPainterMobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB77FC8204D6B9A00E3119C /* AvgPainterMobileTests.swift */,
+				3FB77FCA204D6B9A00E3119C /* Info.plist */,
+			);
+			path = AvgPainterMobileTests;
+			sourceTree = "<group>";
+		};
+		3FB77FD2204D6B9A00E3119C /* AvgPainterMobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3FB77FD3204D6B9A00E3119C /* AvgPainterMobileUITests.swift */,
+				3FB77FD5204D6B9A00E3119C /* Info.plist */,
+			);
+			path = AvgPainterMobileUITests;
+			sourceTree = "<group>";
+		};
+		7C36603AD8B0184BD60F71D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FB77FE5204D759900E3119C /* Color_Picker_for_iOS.framework */,
+				BCE5A2F384BB6BDDD510DC70 /* Pods_AvgPainterMobile.framework */,
+				A1F6DBF1000C8118402353F5 /* Pods_AvgPainterMobileTests.framework */,
+				972CC52050EBEBD259F01042 /* Pods_AvgPainterMobileUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7300A600418B62DC8AEF753 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40AD4BD96A1EB86E7F70819D /* Pods-AvgPainterMobile.debug.xcconfig */,
+				582F968199B838D53AC3FEF5 /* Pods-AvgPainterMobile.release.xcconfig */,
+				57396816CF2612D34E1422E2 /* Pods-AvgPainterMobileTests.debug.xcconfig */,
+				BCC5E8B9C799303303F11DAE /* Pods-AvgPainterMobileTests.release.xcconfig */,
+				CA0920AFC18E66E15D233A95 /* Pods-AvgPainterMobileUITests.debug.xcconfig */,
+				E7F92976353C7648CBE8339A /* Pods-AvgPainterMobileUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FB77FAC204D6B9900E3119C /* AvgPainterMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB77FD8204D6B9A00E3119C /* Build configuration list for PBXNativeTarget "AvgPainterMobile" */;
+			buildPhases = (
+				17A9998B0A10B307C1BB44E3 /* [CP] Check Pods Manifest.lock */,
+				3FB77FA9204D6B9900E3119C /* Sources */,
+				3FB77FAA204D6B9900E3119C /* Frameworks */,
+				3FB77FAB204D6B9900E3119C /* Resources */,
+				73DD31FAD720161DB269D839 /* [CP] Embed Pods Frameworks */,
+				FF05E9F0F073C45CC83B0EC0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AvgPainterMobile;
+			productName = AvgPainterMobile;
+			productReference = 3FB77FAD204D6B9900E3119C /* AvgPainterMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3FB77FC3204D6B9A00E3119C /* AvgPainterMobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB77FDB204D6B9A00E3119C /* Build configuration list for PBXNativeTarget "AvgPainterMobileTests" */;
+			buildPhases = (
+				E09EB873D2A4EE8BDB49A773 /* [CP] Check Pods Manifest.lock */,
+				3FB77FC0204D6B9A00E3119C /* Sources */,
+				3FB77FC1204D6B9A00E3119C /* Frameworks */,
+				3FB77FC2204D6B9A00E3119C /* Resources */,
+				76BF6D0E1BDF4C45760A2CD2 /* [CP] Embed Pods Frameworks */,
+				1B5710CAE6A8974F9FE04855 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB77FC6204D6B9A00E3119C /* PBXTargetDependency */,
+			);
+			name = AvgPainterMobileTests;
+			productName = AvgPainterMobileTests;
+			productReference = 3FB77FC4204D6B9A00E3119C /* AvgPainterMobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3FB77FCE204D6B9A00E3119C /* AvgPainterMobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FB77FDE204D6B9A00E3119C /* Build configuration list for PBXNativeTarget "AvgPainterMobileUITests" */;
+			buildPhases = (
+				B4150B012E07D764088967DE /* [CP] Check Pods Manifest.lock */,
+				3FB77FCB204D6B9A00E3119C /* Sources */,
+				3FB77FCC204D6B9A00E3119C /* Frameworks */,
+				3FB77FCD204D6B9A00E3119C /* Resources */,
+				91CC39EEEDE65AA0B66DE579 /* [CP] Embed Pods Frameworks */,
+				73A6C0F4A1BB9F88A2AA6297 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3FB77FD1204D6B9A00E3119C /* PBXTargetDependency */,
+			);
+			name = AvgPainterMobileUITests;
+			productName = AvgPainterMobileUITests;
+			productReference = 3FB77FCF204D6B9A00E3119C /* AvgPainterMobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3FB77FA5204D6B9900E3119C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = nshhhin;
+				TargetAttributes = {
+					3FB77FAC204D6B9900E3119C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3FB77FC3204D6B9A00E3119C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FB77FAC204D6B9900E3119C;
+					};
+					3FB77FCE204D6B9A00E3119C = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FB77FAC204D6B9900E3119C;
+					};
+				};
+			};
+			buildConfigurationList = 3FB77FA8204D6B9900E3119C /* Build configuration list for PBXProject "AvgPainterMobile" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3FB77FA4204D6B9900E3119C;
+			productRefGroup = 3FB77FAE204D6B9900E3119C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FB77FAC204D6B9900E3119C /* AvgPainterMobile */,
+				3FB77FC3204D6B9A00E3119C /* AvgPainterMobileTests */,
+				3FB77FCE204D6B9A00E3119C /* AvgPainterMobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FB77FAB204D6B9900E3119C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB77FBE204D6B9900E3119C /* LaunchScreen.storyboard in Resources */,
+				3FB77FBB204D6B9900E3119C /* Assets.xcassets in Resources */,
+				3FB77FB6204D6B9900E3119C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB77FC2204D6B9A00E3119C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB77FCD204D6B9A00E3119C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17A9998B0A10B307C1BB44E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AvgPainterMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1B5710CAE6A8974F9FE04855 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvgPainterMobileTests/Pods-AvgPainterMobileTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A6C0F4A1BB9F88A2AA6297 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvgPainterMobileUITests/Pods-AvgPainterMobileUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73DD31FAD720161DB269D839 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AvgPainterMobile/Pods-AvgPainterMobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChromaColorPicker/ChromaColorPicker.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChromaColorPicker.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvgPainterMobile/Pods-AvgPainterMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76BF6D0E1BDF4C45760A2CD2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvgPainterMobileTests/Pods-AvgPainterMobileTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91CC39EEEDE65AA0B66DE579 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvgPainterMobileUITests/Pods-AvgPainterMobileUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4150B012E07D764088967DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AvgPainterMobileUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09EB873D2A4EE8BDB49A773 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AvgPainterMobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF05E9F0F073C45CC83B0EC0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvgPainterMobile/Pods-AvgPainterMobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FB77FA9204D6B9900E3119C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB77FB9204D6B9900E3119C /* AvgPainterMobile.xcdatamodeld in Sources */,
+				3FB77FB3204D6B9900E3119C /* CanvasViewController.swift in Sources */,
+				3FB77FE3204D72E600E3119C /* ColorViewController.swift in Sources */,
+				3FB77FB1204D6B9900E3119C /* AppDelegate.swift in Sources */,
+				3F126B58204D852100896AAB /* DrawingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB77FC0204D6B9A00E3119C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB77FC9204D6B9A00E3119C /* AvgPainterMobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FB77FCB204D6B9A00E3119C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB77FD4204D6B9A00E3119C /* AvgPainterMobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3FB77FC6204D6B9A00E3119C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB77FAC204D6B9900E3119C /* AvgPainterMobile */;
+			targetProxy = 3FB77FC5204D6B9A00E3119C /* PBXContainerItemProxy */;
+		};
+		3FB77FD1204D6B9A00E3119C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB77FAC204D6B9900E3119C /* AvgPainterMobile */;
+			targetProxy = 3FB77FD0204D6B9A00E3119C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3FB77FB4204D6B9900E3119C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB77FB5204D6B9900E3119C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3FB77FBC204D6B9900E3119C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3FB77FBD204D6B9900E3119C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3FB77FD6204D6B9A00E3119C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3FB77FD7204D6B9A00E3119C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3FB77FD9204D6B9A00E3119C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40AD4BD96A1EB86E7F70819D /* Pods-AvgPainterMobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8YPT438X6;
+				INFOPLIST_FILE = AvgPainterMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.AvgPainterMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3FB77FDA204D6B9A00E3119C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 582F968199B838D53AC3FEF5 /* Pods-AvgPainterMobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8YPT438X6;
+				INFOPLIST_FILE = AvgPainterMobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.AvgPainterMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3FB77FDC204D6B9A00E3119C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57396816CF2612D34E1422E2 /* Pods-AvgPainterMobileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8YPT438X6;
+				INFOPLIST_FILE = AvgPainterMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.AvgPainterMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvgPainterMobile.app/AvgPainterMobile";
+			};
+			name = Debug;
+		};
+		3FB77FDD204D6B9A00E3119C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCC5E8B9C799303303F11DAE /* Pods-AvgPainterMobileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8YPT438X6;
+				INFOPLIST_FILE = AvgPainterMobileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.AvgPainterMobileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AvgPainterMobile.app/AvgPainterMobile";
+			};
+			name = Release;
+		};
+		3FB77FDF204D6B9A00E3119C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0920AFC18E66E15D233A95 /* Pods-AvgPainterMobileUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8YPT438X6;
+				INFOPLIST_FILE = AvgPainterMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.AvgPainterMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvgPainterMobile;
+			};
+			name = Debug;
+		};
+		3FB77FE0204D6B9A00E3119C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7F92976353C7648CBE8339A /* Pods-AvgPainterMobileUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T8YPT438X6;
+				INFOPLIST_FILE = AvgPainterMobileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nshhhin.AvgPainterMobileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AvgPainterMobile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3FB77FA8204D6B9900E3119C /* Build configuration list for PBXProject "AvgPainterMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB77FD6204D6B9A00E3119C /* Debug */,
+				3FB77FD7204D6B9A00E3119C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB77FD8204D6B9A00E3119C /* Build configuration list for PBXNativeTarget "AvgPainterMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB77FD9204D6B9A00E3119C /* Debug */,
+				3FB77FDA204D6B9A00E3119C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB77FDB204D6B9A00E3119C /* Build configuration list for PBXNativeTarget "AvgPainterMobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB77FDC204D6B9A00E3119C /* Debug */,
+				3FB77FDD204D6B9A00E3119C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FB77FDE204D6B9A00E3119C /* Build configuration list for PBXNativeTarget "AvgPainterMobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FB77FDF204D6B9A00E3119C /* Debug */,
+				3FB77FE0204D6B9A00E3119C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3FB77FB7204D6B9900E3119C /* AvgPainterMobile.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3FB77FB8204D6B9900E3119C /* AvgPainterMobile.xcdatamodel */,
+			);
+			currentVersion = 3FB77FB8204D6B9900E3119C /* AvgPainterMobile.xcdatamodel */;
+			path = AvgPainterMobile.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3FB77FA5204D6B9900E3119C /* Project object */;
+}
