@@ -40,6 +40,7 @@ class DrawingView: UIImageView {
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
     
     let bEraserMode = appDelegate.bEraserMode
+    penSize = appDelegate.selectedStrokeWeight
     
     if( !bEraserMode ){
       penColor = appDelegate.selectedColor
@@ -175,14 +176,15 @@ class DrawingView: UIImageView {
     // キャンバスを画像化して保存
     // 参考: https://joyplot.com/documents/2016/08/19/swiftでimageviewの画像をカメラロールに保存する/
     
-    UIImageWriteToSavedPhotosAlbum( self.image!, self, #selector(self.showResultOfSaveImage(_:didFinishSavingWithError:contextInfo:)), nil)
-    
-    // 「保存しました」のダイアログ表示
-    let alertController = UIAlertController(title: "保存しました", message: "Saved a picture.", preferredStyle: .alert)
-    
-    let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
-    alertController.addAction(defaultAction)
-    
+    if( self.image != nil ){
+      UIImageWriteToSavedPhotosAlbum( self.image!, self, #selector(self.showResultOfSaveImage(_:didFinishSavingWithError:contextInfo:)), nil)
+      
+      // 「保存しました」のダイアログ表示
+      let alertController = UIAlertController(title: "保存しました", message: "Saved a picture.", preferredStyle: .alert)
+      
+      let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+      alertController.addAction(defaultAction)
+    }
   }
   
   // 保存を試みた結果をダイアログで表示
@@ -201,9 +203,8 @@ class DrawingView: UIImageView {
     // OKボタンを追加
     alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
     
-    // UIAlertController を表示
+    // 親ビューでUIAlertController を表示
     let canvasViewController = self.parentViewController()
-    
     canvasViewController?.present(alert, animated: true, completion: nil)
     
   }

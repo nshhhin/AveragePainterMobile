@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
   var selectedColor: UIColor = .black
+  var selectedStrokeWeight: CGFloat = 6
   var bEraserMode: Bool = false
 
 

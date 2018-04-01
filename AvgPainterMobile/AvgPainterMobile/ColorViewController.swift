@@ -32,6 +32,7 @@ class ColorViewController: UIViewController, ChromaColorPickerDelegate {
     let canvasView = self.presentingViewController as! CanvasViewController
     canvasView.selectedColorView.backgroundColor = color
     
+    
     dismiss(animated: true, completion: nil)
   }
   

@@ -20,7 +20,7 @@ class CanvasViewController: UIViewController,UIImagePickerControllerDelegate, UI
   override func viewDidLoad() {
     super.viewDidLoad()
     
-    // Do any additional setup after loading the view, typically from a nib.
+    selectedColorView.backgroundColor = appDelegate.selectedColor
   }
   
   override func viewWillAppear(_ animated: Bool) {
@@ -95,6 +95,12 @@ class CanvasViewController: UIViewController,UIImagePickerControllerDelegate, UI
   
   override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
     
+  }
+  
+  @IBAction func pushStrokeWeightBtn(_ sender: Any) {
+    let next = storyboard!.instantiateViewController(withIdentifier: "StrokeWeightView")
+    next.modalTransitionStyle = .crossDissolve
+    self.present(next, animated: true, completion: nil)
   }
 }
 

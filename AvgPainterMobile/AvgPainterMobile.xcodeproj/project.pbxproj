@@ -10,6 +10,7 @@
 		165B6680BFF0756950B05463 /* Pods_AvgPainterMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE5A2F384BB6BDDD510DC70 /* Pods_AvgPainterMobile.framework */; };
 		3F126B58204D852100896AAB /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F126B57204D852100896AAB /* DrawingView.swift */; };
 		3FA750D5207110F100515DB5 /* SubModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA750D4207110F100515DB5 /* SubModule.swift */; };
+		3FA750DA20711FD400515DB5 /* StrokeWeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA750D920711FD400515DB5 /* StrokeWeightViewController.swift */; };
 		3FB77FB1204D6B9900E3119C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB77FB0204D6B9900E3119C /* AppDelegate.swift */; };
 		3FB77FB3204D6B9900E3119C /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB77FB2204D6B9900E3119C /* CanvasViewController.swift */; };
 		3FB77FB6204D6B9900E3119C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB77FB4204D6B9900E3119C /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		3F126B57204D852100896AAB /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 		3FA750D4207110F100515DB5 /* SubModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubModule.swift; sourceTree = "<group>"; };
+		3FA750D920711FD400515DB5 /* StrokeWeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StrokeWeightViewController.swift; path = /Users/nino/Documents/GitHub/AveragePainterMobile/AvgPainterMobile/AvgPainterMobile/StrokeWeightViewController.swift; sourceTree = "<absolute>"; };
 		3FB77FAD204D6B9900E3119C /* AvgPainterMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvgPainterMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB77FB0204D6B9900E3119C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB77FB2204D6B9900E3119C /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				3FB77FB0204D6B9900E3119C /* AppDelegate.swift */,
 				3FB77FB2204D6B9900E3119C /* CanvasViewController.swift */,
 				3FB77FE2204D72E600E3119C /* ColorViewController.swift */,
+				3FA750D920711FD400515DB5 /* StrokeWeightViewController.swift */,
 				3FA750D4207110F100515DB5 /* SubModule.swift */,
 				3F126B57204D852100896AAB /* DrawingView.swift */,
 				3FB77FB4204D6B9900E3119C /* Main.storyboard */,
@@ -475,6 +478,7 @@
 				3FB77FB9204D6B9900E3119C /* AvgPainterMobile.xcdatamodeld in Sources */,
 				3FB77FB3204D6B9900E3119C /* CanvasViewController.swift in Sources */,
 				3FA750D5207110F100515DB5 /* SubModule.swift in Sources */,
+				3FA750DA20711FD400515DB5 /* StrokeWeightViewController.swift in Sources */,
 				3FB77FE3204D72E600E3119C /* ColorViewController.swift in Sources */,
 				3FB77FB1204D6B9900E3119C /* AppDelegate.swift in Sources */,
 				3F126B58204D852100896AAB /* DrawingView.swift in Sources */,
