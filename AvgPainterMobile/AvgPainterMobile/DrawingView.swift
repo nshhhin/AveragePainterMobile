@@ -171,4 +171,41 @@ class DrawingView: UIImageView {
     }
   }
   
+  func save(){
+    // キャンバスを画像化して保存
+    // 参考: https://joyplot.com/documents/2016/08/19/swiftでimageviewの画像をカメラロールに保存する/
+    
+    UIImageWriteToSavedPhotosAlbum( self.image!, self, #selector(self.showResultOfSaveImage(_:didFinishSavingWithError:contextInfo:)), nil)
+    
+    // 「保存しました」のダイアログ表示
+    let alertController = UIAlertController(title: "保存しました", message: "Saved a picture.", preferredStyle: .alert)
+    
+    let defaultAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+    alertController.addAction(defaultAction)
+    
+  }
+  
+  // 保存を試みた結果をダイアログで表示
+  @objc func showResultOfSaveImage(_ image: UIImage, didFinishSavingWithError error: NSError!, contextInfo: UnsafeMutableRawPointer) {
+    
+    var title = "保存完了"
+    var message = "カメラロールに保存しました"
+    
+    if error != nil {
+      title = "エラー"
+      message = "保存に失敗しました"
+    }
+    
+    let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+    
+    // OKボタンを追加
+    alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+    
+    // UIAlertController を表示
+    let canvasViewController = self.parentViewController()
+    
+    canvasViewController?.present(alert, animated: true, completion: nil)
+    
+  }
+  
 }

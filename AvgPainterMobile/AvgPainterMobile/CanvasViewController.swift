@@ -64,5 +64,10 @@ class CanvasViewController: UIViewController {
     }
     appDelegate.bEraserMode = !bEraserMode
   }
+  
+  @IBAction func pushSaveBtn(_ sender: Any) {
+    drawingView.save()
+  }
+  
 }
 

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		165B6680BFF0756950B05463 /* Pods_AvgPainterMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE5A2F384BB6BDDD510DC70 /* Pods_AvgPainterMobile.framework */; };
 		3F126B58204D852100896AAB /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F126B57204D852100896AAB /* DrawingView.swift */; };
+		3FA750D5207110F100515DB5 /* SubModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA750D4207110F100515DB5 /* SubModule.swift */; };
 		3FB77FB1204D6B9900E3119C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB77FB0204D6B9900E3119C /* AppDelegate.swift */; };
 		3FB77FB3204D6B9900E3119C /* CanvasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB77FB2204D6B9900E3119C /* CanvasViewController.swift */; };
 		3FB77FB6204D6B9900E3119C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB77FB4204D6B9900E3119C /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		3F126B57204D852100896AAB /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		3FA750D4207110F100515DB5 /* SubModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubModule.swift; sourceTree = "<group>"; };
 		3FB77FAD204D6B9900E3119C /* AvgPainterMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvgPainterMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB77FB0204D6B9900E3119C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB77FB2204D6B9900E3119C /* CanvasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +59,6 @@
 		3FB77FD5204D6B9A00E3119C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FB77FE2204D72E600E3119C /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
 		3FB77FE5204D759900E3119C /* Color_Picker_for_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Color_Picker_for_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FB77FFA204D77ED00E3119C /* AvgPainterMobile copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AvgPainterMobile copy-Info.plist"; path = "/Users/nino/Desktop/AvgPainterMobile/AvgPainterMobile copy-Info.plist"; sourceTree = "<absolute>"; };
 		40AD4BD96A1EB86E7F70819D /* Pods-AvgPainterMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvgPainterMobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvgPainterMobile/Pods-AvgPainterMobile.debug.xcconfig"; sourceTree = "<group>"; };
 		57396816CF2612D34E1422E2 /* Pods-AvgPainterMobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvgPainterMobileTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvgPainterMobileTests/Pods-AvgPainterMobileTests.debug.xcconfig"; sourceTree = "<group>"; };
 		582F968199B838D53AC3FEF5 /* Pods-AvgPainterMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvgPainterMobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-AvgPainterMobile/Pods-AvgPainterMobile.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,7 +107,6 @@
 				3FB77FAE204D6B9900E3119C /* Products */,
 				F7300A600418B62DC8AEF753 /* Pods */,
 				7C36603AD8B0184BD60F71D8 /* Frameworks */,
-				3FB77FFA204D77ED00E3119C /* AvgPainterMobile copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +126,7 @@
 				3FB77FB0204D6B9900E3119C /* AppDelegate.swift */,
 				3FB77FB2204D6B9900E3119C /* CanvasViewController.swift */,
 				3FB77FE2204D72E600E3119C /* ColorViewController.swift */,
+				3FA750D4207110F100515DB5 /* SubModule.swift */,
 				3F126B57204D852100896AAB /* DrawingView.swift */,
 				3FB77FB4204D6B9900E3119C /* Main.storyboard */,
 				3FB77FBA204D6B9900E3119C /* Assets.xcassets */,
@@ -473,6 +474,7 @@
 			files = (
 				3FB77FB9204D6B9900E3119C /* AvgPainterMobile.xcdatamodeld in Sources */,
 				3FB77FB3204D6B9900E3119C /* CanvasViewController.swift in Sources */,
+				3FA750D5207110F100515DB5 /* SubModule.swift in Sources */,
 				3FB77FE3204D72E600E3119C /* ColorViewController.swift in Sources */,
 				3FB77FB1204D6B9900E3119C /* AppDelegate.swift in Sources */,
 				3F126B58204D852100896AAB /* DrawingView.swift in Sources */,
