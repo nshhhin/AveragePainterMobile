@@ -1,2 +1,2 @@
-# AverageStrokeMobile
+# AveragePainterMobile
 iOS版のAvgStroke
