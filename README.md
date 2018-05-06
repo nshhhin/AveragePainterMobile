@@ -6,7 +6,7 @@ iOS版のAvgPainter
 
 <div align="center">
  <img src="https://github.com/nshhhin/AveragePainterMobile/blob/master/demo1.gif" width="auto" height="300px">
- 実行画面
+ <p>実行画面</p>
 </div>
 
 
