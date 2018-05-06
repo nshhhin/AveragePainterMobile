@@ -10,7 +10,7 @@ iOS版のAvgPainter
 </div>
 
 
-## issues list
+## Issues List
 - 平均化実装
 - 使いやすいカラーピッカーの実装
 - 画像読み込みバグの改善
